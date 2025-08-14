@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather & Currency App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Live Weather and Currency Exchange</h1>
+
+  <section id="weather">
+    <h2>Calgary Weather</h2>
+    <div id="weather-data">Loading...</div>
+  </section>
+
+  <section id="currency">
+    <h2>Currency Exchange</h2>
+    <input type="number" id="amount" placeholder="Amount" />
+    <select id="from-currency"></select>
+    <select id="to-currency"></select>
+    <button onclick="convertCurrency()">Convert</button>
+    <div id="conversion-result"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
